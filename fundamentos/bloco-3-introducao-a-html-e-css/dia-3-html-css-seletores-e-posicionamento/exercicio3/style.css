@@ -1,0 +1,19 @@
+h1, p {
+    text-align: center;
+}
+
+ol:hover {
+    background-color: blue;
+}
+
+ul:active {
+    font-family: montserrat;
+}
+
+ul {
+    list-style: none;
+}
+
+ol {
+    list-style: none;
+}
