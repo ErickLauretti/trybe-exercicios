@@ -1,11 +1,13 @@
-let primeiro = 60;
-let segundo = 60;
-let terceiro = 60;
+let peça = 'BISPO' .toLowerCase();
 
-if (primeiro == segundo && primeiro == terceiro) {
-    console.log('true');
-} else if (primeiro !== segundo && primeiro !== terceiro) {
-    console.log('false'); 
-} else {
-    console.log('erro');
+switch (peça) {
+case 'bispo':
+     console.log('diagonal');
+     break;
+    
+case 'cavalo':
+     console.log('L');
+     break;
+default:
+     console.log('peça inválida');      
 }
