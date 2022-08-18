@@ -1,10 +1,14 @@
-const a = 2;
-const b = 2;
-const c = 2;
-const condicao1 = true;
-const condicao2 = false;
-if (a || b || c % 3 == 0) {
-    console.log(condicao1);
+const custo = 50 * 1000;
+const valor = 100;
+const imposto = custo % 20;
+const custoTotal = custo + imposto;
+const produtos1000 = valor * 1000;
+let lucro1000 = produtos1000 - custoTotal
+
+if (produtos1000 - custoTotal) {
+    console.log(lucro1000);
+} else if (custo < 0) {
+    console.log('erro');
 } else {
-    console.log(condicao2);
+    console.log('erro');
 }
