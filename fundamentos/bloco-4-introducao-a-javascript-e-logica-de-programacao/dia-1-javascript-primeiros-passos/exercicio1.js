@@ -1,11 +1,10 @@
-const a = 5;
-const b = 3;
-const c = 10;
-
-if (a > b && a > c) {
-    console.log(a);
-} else if (b > a && b > c) {
-    console.log(b);
-} else {
-    console.log(c);
+let valor = 5;
+function verificar(valor) {
+    if (5 > 0) {
+        console.log(positive);
+    } else if (5 < 0) {
+        console.log(negative);
+    } else {
+        console.log(zero)
+    }
 }
