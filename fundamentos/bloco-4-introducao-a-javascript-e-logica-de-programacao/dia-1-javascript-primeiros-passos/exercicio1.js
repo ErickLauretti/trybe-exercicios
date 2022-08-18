@@ -1,10 +1,11 @@
-let valor = 5;
-function verificar(valor) {
-    if (5 > 0) {
-        console.log(positive);
-    } else if (5 < 0) {
-        console.log(negative);
-    } else {
-        console.log(zero)
-    }
+let primeiro = 60;
+let segundo = 60;
+let terceiro = 60;
+
+if (primeiro == segundo && primeiro == terceiro) {
+    console.log('true');
+} else if (primeiro !== segundo && primeiro !== terceiro) {
+    console.log('false'); 
+} else {
+    console.log('erro');
 }
